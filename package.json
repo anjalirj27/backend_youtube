@@ -2,16 +2,19 @@
   "name": "backend_youtube",
   "version": "1.0.0",
   "description": "a fully functional youtube backend",
-  "type" : "module",
+  "type": "module",
   "main": "index.js",
-
   "scripts": {
-    "dev" : "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
   "author": "Anjix",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6"
+  }
 }
